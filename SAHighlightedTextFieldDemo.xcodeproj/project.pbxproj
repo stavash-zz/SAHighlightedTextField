@@ -19,6 +19,13 @@
 		1FF0984E17806447007C4F08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0984D17806447007C4F08 /* ViewController.m */; };
 		1FF0985117806447007C4F08 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0984F17806447007C4F08 /* ViewController_iPhone.xib */; };
 		1FF0985417806447007C4F08 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0985217806447007C4F08 /* ViewController_iPad.xib */; };
+		1FF0985D1780645D007C4F08 /* SAHighlightedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0985C1780645D007C4F08 /* SAHighlightedTextField.m */; };
+		1FF0986517806514007C4F08 /* divider_vertical@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0985F17806514007C4F08 /* divider_vertical@2x.png */; };
+		1FF0986617806514007C4F08 /* text_field_editing.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0986017806514007C4F08 /* text_field_editing.png */; };
+		1FF0986717806514007C4F08 /* text_field_editing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0986117806514007C4F08 /* text_field_editing@2x.png */; };
+		1FF0986817806514007C4F08 /* text_field.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0986217806514007C4F08 /* text_field.png */; };
+		1FF0986917806514007C4F08 /* divider_vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0986317806514007C4F08 /* divider_vertical.png */; };
+		1FF0986A17806514007C4F08 /* text_field@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0986417806514007C4F08 /* text_field@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +46,14 @@
 		1FF0984D17806447007C4F08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FF0985017806447007C4F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		1FF0985317806447007C4F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		1FF0985B1780645D007C4F08 /* SAHighlightedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAHighlightedTextField.h; sourceTree = "<group>"; };
+		1FF0985C1780645D007C4F08 /* SAHighlightedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAHighlightedTextField.m; sourceTree = "<group>"; };
+		1FF0985F17806514007C4F08 /* divider_vertical@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "divider_vertical@2x.png"; path = "Artwork/divider_vertical@2x.png"; sourceTree = "<group>"; };
+		1FF0986017806514007C4F08 /* text_field_editing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = text_field_editing.png; path = Artwork/text_field_editing.png; sourceTree = "<group>"; };
+		1FF0986117806514007C4F08 /* text_field_editing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text_field_editing@2x.png"; path = "Artwork/text_field_editing@2x.png"; sourceTree = "<group>"; };
+		1FF0986217806514007C4F08 /* text_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = text_field.png; path = Artwork/text_field.png; sourceTree = "<group>"; };
+		1FF0986317806514007C4F08 /* divider_vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = divider_vertical.png; path = Artwork/divider_vertical.png; sourceTree = "<group>"; };
+		1FF0986417806514007C4F08 /* text_field@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text_field@2x.png"; path = "Artwork/text_field@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,7 @@
 		1FF0983A17806447007C4F08 /* SAHighlightedTextFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1FF0985A1780644E007C4F08 /* SAHighlightedTextField */,
 				1FF0984317806447007C4F08 /* AppDelegate.h */,
 				1FF0984417806447007C4F08 /* AppDelegate.m */,
 				1FF0984C17806447007C4F08 /* ViewController.h */,
@@ -99,6 +115,7 @@
 		1FF0983B17806447007C4F08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1FF0985E178064F2007C4F08 /* Artwork */,
 				1FF0983C17806447007C4F08 /* SAHighlightedTextFieldDemo-Info.plist */,
 				1FF0983D17806447007C4F08 /* InfoPlist.strings */,
 				1FF0984017806447007C4F08 /* main.m */,
@@ -108,6 +125,28 @@
 				1FF0984A17806447007C4F08 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FF0985A1780644E007C4F08 /* SAHighlightedTextField */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0985B1780645D007C4F08 /* SAHighlightedTextField.h */,
+				1FF0985C1780645D007C4F08 /* SAHighlightedTextField.m */,
+			);
+			name = SAHighlightedTextField;
+			sourceTree = "<group>";
+		};
+		1FF0985E178064F2007C4F08 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0985F17806514007C4F08 /* divider_vertical@2x.png */,
+				1FF0986017806514007C4F08 /* text_field_editing.png */,
+				1FF0986117806514007C4F08 /* text_field_editing@2x.png */,
+				1FF0986217806514007C4F08 /* text_field.png */,
+				1FF0986317806514007C4F08 /* divider_vertical.png */,
+				1FF0986417806514007C4F08 /* text_field@2x.png */,
+			);
+			name = Artwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +206,12 @@
 				1FF0984B17806447007C4F08 /* Default-568h@2x.png in Resources */,
 				1FF0985117806447007C4F08 /* ViewController_iPhone.xib in Resources */,
 				1FF0985417806447007C4F08 /* ViewController_iPad.xib in Resources */,
+				1FF0986517806514007C4F08 /* divider_vertical@2x.png in Resources */,
+				1FF0986617806514007C4F08 /* text_field_editing.png in Resources */,
+				1FF0986717806514007C4F08 /* text_field_editing@2x.png in Resources */,
+				1FF0986817806514007C4F08 /* text_field.png in Resources */,
+				1FF0986917806514007C4F08 /* divider_vertical.png in Resources */,
+				1FF0986A17806514007C4F08 /* text_field@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +225,7 @@
 				1FF0984117806447007C4F08 /* main.m in Sources */,
 				1FF0984517806447007C4F08 /* AppDelegate.m in Sources */,
 				1FF0984E17806447007C4F08 /* ViewController.m in Sources */,
+				1FF0985D1780645D007C4F08 /* SAHighlightedTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +321,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch";
 				INFOPLIST_FILE = "SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,6 +333,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch";
 				INFOPLIST_FILE = "SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
