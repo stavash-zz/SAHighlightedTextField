@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF0983517806447007C4F08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF0983417806447007C4F08 /* UIKit.framework */; };
+		1FF0983717806447007C4F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF0983617806447007C4F08 /* Foundation.framework */; };
+		1FF0983917806447007C4F08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF0983817806447007C4F08 /* CoreGraphics.framework */; };
+		1FF0983F17806447007C4F08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0983D17806447007C4F08 /* InfoPlist.strings */; };
+		1FF0984117806447007C4F08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0984017806447007C4F08 /* main.m */; };
+		1FF0984517806447007C4F08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0984417806447007C4F08 /* AppDelegate.m */; };
+		1FF0984717806447007C4F08 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0984617806447007C4F08 /* Default.png */; };
+		1FF0984917806447007C4F08 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0984817806447007C4F08 /* Default@2x.png */; };
+		1FF0984B17806447007C4F08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0984A17806447007C4F08 /* Default-568h@2x.png */; };
+		1FF0984E17806447007C4F08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0984D17806447007C4F08 /* ViewController.m */; };
+		1FF0985117806447007C4F08 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0984F17806447007C4F08 /* ViewController_iPhone.xib */; };
+		1FF0985417806447007C4F08 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0985217806447007C4F08 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FF0983117806447007C4F08 /* SAHighlightedTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAHighlightedTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF0983417806447007C4F08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FF0983617806447007C4F08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FF0983817806447007C4F08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FF0983C17806447007C4F08 /* SAHighlightedTextFieldDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SAHighlightedTextFieldDemo-Info.plist"; sourceTree = "<group>"; };
+		1FF0983E17806447007C4F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FF0984017806447007C4F08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FF0984217806447007C4F08 /* SAHighlightedTextFieldDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SAHighlightedTextFieldDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1FF0984317806447007C4F08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FF0984417806447007C4F08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FF0984617806447007C4F08 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1FF0984817806447007C4F08 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1FF0984A17806447007C4F08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1FF0984C17806447007C4F08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FF0984D17806447007C4F08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FF0985017806447007C4F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		1FF0985317806447007C4F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF0982E17806447007C4F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF0983517806447007C4F08 /* UIKit.framework in Frameworks */,
+				1FF0983717806447007C4F08 /* Foundation.framework in Frameworks */,
+				1FF0983917806447007C4F08 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF0982817806447007C4F08 = {
+			isa = PBXGroup;
+			children = (
+				1FF0983A17806447007C4F08 /* SAHighlightedTextFieldDemo */,
+				1FF0983317806447007C4F08 /* Frameworks */,
+				1FF0983217806447007C4F08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF0983217806447007C4F08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0983117806447007C4F08 /* SAHighlightedTextFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF0983317806447007C4F08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0983417806447007C4F08 /* UIKit.framework */,
+				1FF0983617806447007C4F08 /* Foundation.framework */,
+				1FF0983817806447007C4F08 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF0983A17806447007C4F08 /* SAHighlightedTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0984317806447007C4F08 /* AppDelegate.h */,
+				1FF0984417806447007C4F08 /* AppDelegate.m */,
+				1FF0984C17806447007C4F08 /* ViewController.h */,
+				1FF0984D17806447007C4F08 /* ViewController.m */,
+				1FF0984F17806447007C4F08 /* ViewController_iPhone.xib */,
+				1FF0985217806447007C4F08 /* ViewController_iPad.xib */,
+				1FF0983B17806447007C4F08 /* Supporting Files */,
+			);
+			path = SAHighlightedTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		1FF0983B17806447007C4F08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0983C17806447007C4F08 /* SAHighlightedTextFieldDemo-Info.plist */,
+				1FF0983D17806447007C4F08 /* InfoPlist.strings */,
+				1FF0984017806447007C4F08 /* main.m */,
+				1FF0984217806447007C4F08 /* SAHighlightedTextFieldDemo-Prefix.pch */,
+				1FF0984617806447007C4F08 /* Default.png */,
+				1FF0984817806447007C4F08 /* Default@2x.png */,
+				1FF0984A17806447007C4F08 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF0983017806447007C4F08 /* SAHighlightedTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF0985717806447007C4F08 /* Build configuration list for PBXNativeTarget "SAHighlightedTextFieldDemo" */;
+			buildPhases = (
+				1FF0982D17806447007C4F08 /* Sources */,
+				1FF0982E17806447007C4F08 /* Frameworks */,
+				1FF0982F17806447007C4F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAHighlightedTextFieldDemo;
+			productName = SAHighlightedTextFieldDemo;
+			productReference = 1FF0983117806447007C4F08 /* SAHighlightedTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF0982917806447007C4F08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Stav Ashuri";
+			};
+			buildConfigurationList = 1FF0982C17806447007C4F08 /* Build configuration list for PBXProject "SAHighlightedTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FF0982817806447007C4F08;
+			productRefGroup = 1FF0983217806447007C4F08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF0983017806447007C4F08 /* SAHighlightedTextFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF0982F17806447007C4F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF0983F17806447007C4F08 /* InfoPlist.strings in Resources */,
+				1FF0984717806447007C4F08 /* Default.png in Resources */,
+				1FF0984917806447007C4F08 /* Default@2x.png in Resources */,
+				1FF0984B17806447007C4F08 /* Default-568h@2x.png in Resources */,
+				1FF0985117806447007C4F08 /* ViewController_iPhone.xib in Resources */,
+				1FF0985417806447007C4F08 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF0982D17806447007C4F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF0984117806447007C4F08 /* main.m in Sources */,
+				1FF0984517806447007C4F08 /* AppDelegate.m in Sources */,
+				1FF0984E17806447007C4F08 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FF0983D17806447007C4F08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF0983E17806447007C4F08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FF0984F17806447007C4F08 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF0985017806447007C4F08 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1FF0985217806447007C4F08 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF0985317806447007C4F08 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FF0985517806447007C4F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FF0985617806447007C4F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FF0985817806447007C4F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch";
+				INFOPLIST_FILE = "SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FF0985917806447007C4F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch";
+				INFOPLIST_FILE = "SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF0982C17806447007C4F08 /* Build configuration list for PBXProject "SAHighlightedTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF0985517806447007C4F08 /* Debug */,
+				1FF0985617806447007C4F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF0985717806447007C4F08 /* Build configuration list for PBXNativeTarget "SAHighlightedTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF0985817806447007C4F08 /* Debug */,
+				1FF0985917806447007C4F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF0982917806447007C4F08 /* Project object */;
+}
