@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.m \
+  /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.h
