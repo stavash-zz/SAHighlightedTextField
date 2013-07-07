@@ -3,7 +3,7 @@ SAHighlightedTextField
 
 A flexible iOS component that subclasses UITextField and switches the background while the text field is being edited.
 
-![Alt text](http://i923.photobucket.com/albums/ad76/stavash/ScreenShot2013-07-07at22945PM_zps80279a13.png
+![Alt text](http://i923.photobucket.com/albums/ad76/stavash/ScreenShot2013-07-07at22945PM_zps80279a13.png)
 
 
 License
