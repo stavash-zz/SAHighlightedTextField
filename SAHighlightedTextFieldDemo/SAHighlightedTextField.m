@@ -3,7 +3,7 @@
 //  SAHighlightedTextField
 //
 //  Created by Stav Ashuri on 6/19/13.
-//  Copyright (c) 2013 Zemingo. All rights reserved.
+//  Copyright (c) 2013 Stav Ashuri. All rights reserved.
 //
 
 #import "SAHighlightedTextField.h"
