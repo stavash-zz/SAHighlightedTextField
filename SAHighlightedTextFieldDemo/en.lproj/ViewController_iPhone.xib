@@ -43,7 +43,6 @@
 						<string key="NSFrame">{{124, 97}, {73, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -157,9 +156,8 @@
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="842538100"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">3</int>
-					<bytes key="NSWhite">MC43NQA</bytes>
-					<reference key="NSCustomColorSpace" ref="1038231374"/>
+					<int key="NSColorSpace">1</int>
+					<bytes key="NSRGB">MC40NjQ0ODUwMTI4IDAuMzEyNTE4NTcyNCAwLjE1OTM5NTUwNTgAA</bytes>
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -305,17 +303,6 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">ViewController</string>
 					<string key="superclassName">UIViewController</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">dismissPressed:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">dismissPressed:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">dismissPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="tfDemo">SAHighlightedTextField</string>
 						<string key="tfDemo2">SAHighlightedTextField</string>

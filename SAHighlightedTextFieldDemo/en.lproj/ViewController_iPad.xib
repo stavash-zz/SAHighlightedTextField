@@ -156,8 +156,8 @@
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="149499797"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">3</int>
-					<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
+					<int key="NSColorSpace">1</int>
+					<bytes key="NSRGB">MC40NjQ0ODUwMTI4IDAuMzEyNTE4NTcyNCAwLjE1OTM5NTUwNTgAA</bytes>
 				</object>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
 					<int key="IBUIStatusBarStyle">2</int>

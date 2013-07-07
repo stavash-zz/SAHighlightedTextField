@@ -28,6 +28,8 @@ typedef enum
 
 @implementation SAHighlightedTextField
 
+#pragma mark - Initialization
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -51,6 +53,16 @@ typedef enum
     [self toggleState:kSAHighlightedTextFieldStateNormal];
     self.textInsets = kSAHighlightedTextFieldDefaultTextInsets;
     self.textOffset = kSAHighlightedTextFieldDefaultTextOffset;
+}
+
+#pragma mark - NSObject
+
+- (void)dealloc
+{
+    self.normalBackgroundImage = nil;
+    self.highlightedBackgroundImage = nil;
+    
+    [super dealloc];
 }
 
 #pragma mark - Public

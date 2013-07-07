@@ -139,11 +139,11 @@
 		1FF0985E178064F2007C4F08 /* Artwork */ = {
 			isa = PBXGroup;
 			children = (
+				1FF0986317806514007C4F08 /* divider_vertical.png */,
 				1FF0985F17806514007C4F08 /* divider_vertical@2x.png */,
 				1FF0986017806514007C4F08 /* text_field_editing.png */,
 				1FF0986117806514007C4F08 /* text_field_editing@2x.png */,
 				1FF0986217806514007C4F08 /* text_field.png */,
-				1FF0986317806514007C4F08 /* divider_vertical.png */,
 				1FF0986417806514007C4F08 /* text_field@2x.png */,
 			);
 			name = Artwork;
@@ -358,6 +358,7 @@
 				1FF0985917806447007C4F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
