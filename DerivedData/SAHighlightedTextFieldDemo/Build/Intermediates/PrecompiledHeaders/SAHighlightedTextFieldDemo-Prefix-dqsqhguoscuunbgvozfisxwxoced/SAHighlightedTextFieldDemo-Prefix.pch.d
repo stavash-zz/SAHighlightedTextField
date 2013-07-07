@@ -1,2 +1,0 @@
-dependencies: \
-  /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch

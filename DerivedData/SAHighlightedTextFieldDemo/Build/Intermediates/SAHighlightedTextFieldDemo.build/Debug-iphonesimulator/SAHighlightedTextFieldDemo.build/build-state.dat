@@ -1,508 +1,0 @@
-TSAHighlightedTextFieldDemo
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Info.plist SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist
-cProcessPCH /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch.pth SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/main.o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/SAHighlightedTextField.o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/AppDelegate.o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/ViewController.o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo normal i386
-cGenerateDSYMFile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app.dSYM /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo
-cCopyStringsFile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/en.lproj/InfoPlist.strings SAHighlightedTextFieldDemo/en.lproj/InfoPlist.strings
-cCpResource SAHighlightedTextFieldDemo/Default.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default.png
-cCpResource SAHighlightedTextFieldDemo/Default@2x.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default@2x.png
-cCpResource SAHighlightedTextFieldDemo/Default-568h@2x.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default-568h@2x.png
-cCompileXIB /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPhone.xib
-cCompileXIB /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPad.xib
-cCpResource SAHighlightedTextFieldDemo/Artwork/divider_vertical@2x.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical@2x.png
-cCpResource SAHighlightedTextFieldDemo/Artwork/text_field_editing.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing.png
-cCpResource SAHighlightedTextFieldDemo/Artwork/text_field.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field.png
-cCpResource SAHighlightedTextFieldDemo/Artwork/text_field_editing@2x.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing@2x.png
-cCpResource SAHighlightedTextFieldDemo/Artwork/divider_vertical.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical.png
-cCpResource SAHighlightedTextFieldDemo/Artwork/text_field@2x.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field@2x.png
-cTouch /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
-c000000005199CFB80000000000000110
-t1369034680
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000511CD5010000000000228FE0
-t1360844033
-s2265056
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000511CD50200000000003DDFA0
-t1360844034
-s4054944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000511CD50100000000000015F7
-t1360844033
-s5623
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c00000000511CD5050000000000000E8D
-t1360844037
-s3725
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000511CD5070000000000AB6230
-t1360844039
-s11231792
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
-c00000000511CD5190000000000001B73
-t1360844057
-s7027
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-abamgzvlgbqxuyecbjeheemmyvya/SAHighlightedTextFieldDemo-Prefix.pch.pth
-t1372597840
-s4669192
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch.pth
-t1372597926
-s4666856
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/AppDelegate.o
-t1372597926
-s90468
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/SAHighlightedTextField.o
-t1372598094
-s85380
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/SAHighlightedTextFieldDemo.LinkFileList
-c0000000051D02E500000000000000417
-t1372597840
-s1047
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/ViewController.o
-t1372598094
-s74532
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/main.o
-t1372597926
-s3308
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app
-t1372598156
-s510
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app.dSYM
-t1372598094
-s102
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default-568h@2x.png
-t1372597840
-s18594
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default.png
-t1372597840
-s6540
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default@2x.png
-t1372597840
-s16107
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Info.plist
-t1372597926
-s1002
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/PkgInfo
-t1372597926
-s8
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo
-t1372598094
-s43248
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical.png
-t1372597840
-s2797
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical@2x.png
-t1372597840
-s2801
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/en.lproj/InfoPlist.strings
-t1372597840
-s42
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/en.lproj/ViewController_iPad.nib
-t1372598156
-s2392
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/en.lproj/ViewController_iPhone.nib
-t1372597927
-s2511
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field.png
-t1372597840
-s3182
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field@2x.png
-t1372597840
-s3442
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing.png
-t1372597840
-s3196
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing@2x.png
-t1372597840
-s3505
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/AppDelegate.h
-c0000000051D02CC7000000000000017F
-t1372597447
-s383
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/AppDelegate.m
-c0000000051D02CC70000000000000A7A
-t1372597447
-s2682
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/divider_vertical.png
-c0000000051D02C520000000000000AED
-t1372597330
-s2797
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/divider_vertical@2x.png
-c0000000051D02C5D0000000000000AF1
-t1372597341
-s2801
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/text_field.png
-c0000000051D02C540000000000000C6E
-t1372597332
-s3182
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/text_field@2x.png
-c0000000051D02C4D0000000000000D72
-t1372597325
-s3442
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/text_field_editing.png
-c0000000051D02C5A0000000000000C7C
-t1372597338
-s3196
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/text_field_editing@2x.png
-c0000000051D02C570000000000000DB1
-t1372597335
-s3505
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Default-568h@2x.png
-c000000005062328600000000000048A2
-t1348612742
-s18594
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Default.png
-c0000000050623286000000000000198C
-t1348612742
-s6540
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Default@2x.png
-c00000000506232860000000000003EEB
-t1348612742
-s16107
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.h
-c0000000051D02F4E00000000000001E4
-t1372598094
-s484
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.m
-c0000000051D02F4E0000000000000D3B
-t1372598094
-s3387
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch
-c0000000051D02CC70000000000000163
-t1372597447
-s355
-i<Availability.h>
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/ViewController.h
-c0000000051D02CC700000000000000EA
-t1372597447
-s234
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/ViewController.m
-c0000000051D02F010000000000000580
-t1372598017
-s1408
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/InfoPlist.strings
-c0000000051D02CC7000000000000002D
-t1372597447
-s45
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPad.xib
-c0000000051D02F8B00000000000037E1
-t1372598155
-s14305
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPhone.xib
-c0000000051D02E190000000000003CF0
-t1372597785
-s15600
-
-N/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/main.m
-c0000000051D02CC70000000000000163
-t1372597447
-s355
-
-NSAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist
-c0000000051D02CC700000000000005CD
-t1372597447
-s1485
-
-CBuild AST from /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/AppDelegate.m
-r0
-
-CBuild AST from /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.m
-r0
-
-CBuild AST from /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/ViewController.m
-r0
-
-CBuild AST from /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies624a70136780b741^60027b136780b741^---0#1#0#--18"Check dependencies36"F9E7696A-12E5-4EA7-BBF9-2EBB2D07A344-
-
-CCompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/AppDelegate.o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s394290726.894914
-e394290726.998199
-r1
-xCompileC
-xDerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/AppDelegate.o
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/AppDelegate.m554ce5266680b741^fd88ff266680b741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/AppDelegate.m0000000000000000^5163"CompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/AppDelegate.o SAHighlightedTextFieldDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-generated-files.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-own-target-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-all-target-headers.hmap -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-project-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources/i386 -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources -F/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator -include /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch -MMD -MT dependencies -MF /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/AppDelegate.dia -c /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/AppDelegate.m -o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/AppDelegate.o36"A86556F8-2A26-4A3E-8E58-D83F6C7099E4-
-
-CCompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/SAHighlightedTextField.o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s394290894.134043
-e394290894.215453
-r1
-xCompileC
-xDerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/SAHighlightedTextField.o
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.m867622ce6680b741^672737ce6680b741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.m0000000000000000^5229"CompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/SAHighlightedTextField.o SAHighlightedTextFieldDemo/SAHighlightedTextField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-generated-files.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-own-target-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-all-target-headers.hmap -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-project-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources/i386 -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources -F/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator -include /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch -MMD -MT dependencies -MF /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/SAHighlightedTextField.d --serialize-diagnostics /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/SAHighlightedTextField.dia -c /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextField.m -o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/SAHighlightedTextField.o36"4F6BE3FA-1103-4306-948B-B5D5A7710693-
-
-CCompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/ViewController.o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s394290894.134038
-e394290894.206901
-r1
-xCompileC
-xDerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/ViewController.o
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/ViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/ViewController.md97622ce6680b741^27f634ce6680b741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/ViewController.m0000000000000000^5181"CompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/ViewController.o SAHighlightedTextFieldDemo/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-generated-files.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-own-target-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-all-target-headers.hmap -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-project-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources/i386 -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources -F/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator -include /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch -MMD -MT dependencies -MF /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/ViewController.dia -c /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/ViewController.m -o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/ViewController.o36"7DA793B6-6C98-4EB3-9101-5F8B73202A1D-
-
-CCompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/main.o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s394290726.894907
-e394290726.930428
-r1
-xCompileC
-xDerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/main.o
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/main.m054fe5266680b741^ad2fee266680b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/main.m0000000000000000^5121"CompileC DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/main.o SAHighlightedTextFieldDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-generated-files.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-own-target-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-all-target-headers.hmap -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-project-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources/i386 -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources -F/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator -include /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch -MMD -MT dependencies -MF /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/main.dia -c /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/main.m -o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/main.o36"C511C45F-0D45-49DD-8F38-EABBAA521206-
-
-CCompileXIB /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPad.xib
-s394290956.030890
-e394290956.823155
-r1
-xCompileXIB
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPad.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Compiling /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPad.xibbc03080c6780b741^17bad20c6780b741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPad.xib0000000000000000^1154"CompileXIB SAHighlightedTextFieldDemo/en.lproj/ViewController_iPad.xib    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/en.lproj/ViewController_iPad.nib /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPad.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"86FE6483-4739-4786-910B-BBF2A7C8BE53-
-
-CCompileXIB /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPhone.xib
-s394290727.117606
-e394290727.470278
-r1
-xCompileXIB
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPhone.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compiling /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPhone.xib43381e276680b741^136478276680b741^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPhone.xib0000000000000000^1160"CompileXIB SAHighlightedTextFieldDemo/en.lproj/ViewController_iPhone.xib    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/en.lproj/ViewController_iPhone.nib /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/ViewController_iPhone.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"443DEEA0-3AC8-42CB-92DB-9698016522F4-
-
-CCopyStringsFile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/en.lproj/InfoPlist.strings SAHighlightedTextFieldDemo/en.lproj/InfoPlist.strings
-s394290640.918072
-e394290640.924261
-r1
-xCopyStringsFile
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/en.lproj/InfoPlist.strings
-xSAHighlightedTextFieldDemo/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy SAHighlightedTextFieldDemo/en.lproj/InfoPlist.strings7637ebd06580b741^6fa0ecd06580b741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/en.lproj/InfoPlist.strings0000000000000000^827"CopyStringsFile DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/en.lproj/InfoPlist.strings SAHighlightedTextFieldDemo/en.lproj/InfoPlist.strings    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/en.lproj -- SAHighlightedTextFieldDemo/en.lproj/InfoPlist.strings36"68FBCDF6-708F-4434-A00E-EE8D1144911C-
-
-CCpResource SAHighlightedTextFieldDemo/Artwork/divider_vertical.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical.png
-s394290640.981434
-e394290640.986817
-r1
-xCpResource
-xSAHighlightedTextFieldDemo/Artwork/divider_vertical.png
-xDerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Copy DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical.png7959fbd06580b741^b2a0fcd06580b741^---0#0#0#-19%DVTDocumentLocation2@222"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical.png000000000080d041^909"CpResource SAHighlightedTextFieldDemo/Artwork/divider_vertical.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical.png    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/divider_vertical.png /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app36"54F97CE4-FF96-4120-9C84-E0B260922997-
-
-CCpResource SAHighlightedTextFieldDemo/Artwork/divider_vertical@2x.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical@2x.png
-s394290640.924118
-e394290640.950104
-r1
-xCpResource
-xSAHighlightedTextFieldDemo/Artwork/divider_vertical@2x.png
-xDerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Copy DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical@2x.pngd2acecd06580b741^2252f3d06580b741^---0#0#0#-19%DVTDocumentLocation2@225"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical@2x.png000000000080d041^924"CpResource "SAHighlightedTextFieldDemo/Artwork/divider_vertical@2x.png" "DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/divider_vertical@2x.png"    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/divider_vertical@2x.png" /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app36"8B45BD95-CEA1-4C5C-9236-983DB68F750C-
-
-CCpResource SAHighlightedTextFieldDemo/Artwork/text_field.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field.png
-s394290640.952399
-e394290640.986967
-r1
-xCpResource
-xSAHighlightedTextFieldDemo/Artwork/text_field.png
-xDerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Copy DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field.pngd0d1fad06580b741^59a5fcd06580b741^---0#0#0#-19%DVTDocumentLocation2@216"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field.png000000000080d041^891"CpResource SAHighlightedTextFieldDemo/Artwork/text_field.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field.png    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/text_field.png /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app36"06BDE0AC-712E-4BE7-B680-1DF984112848-
-
-CCpResource SAHighlightedTextFieldDemo/Artwork/text_field@2x.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field@2x.png
-s394290640.988131
-e394290640.991187
-r1
-xCpResource
-xSAHighlightedTextFieldDemo/Artwork/text_field@2x.png
-xDerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Copy DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field@2x.pngf90ffdd06580b741^b2befdd06580b741^---0#0#0#-19%DVTDocumentLocation2@219"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field@2x.png000000000080d041^906"CpResource "SAHighlightedTextFieldDemo/Artwork/text_field@2x.png" "DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field@2x.png"    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/text_field@2x.png" /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app36"B89EFF04-5877-4B48-AADE-99F223DCE384-
-
-CCpResource SAHighlightedTextFieldDemo/Artwork/text_field_editing.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing.png
-s394290640.925692
-e394290640.950578
-r1
-xCpResource
-xSAHighlightedTextFieldDemo/Artwork/text_field_editing.png
-xDerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Copy DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing.pnga916edd06580b741^6974f3d06580b741^---0#0#0#-19%DVTDocumentLocation2@224"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing.png000000000080d041^915"CpResource SAHighlightedTextFieldDemo/Artwork/text_field_editing.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing.png    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/text_field_editing.png /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app36"BBD6B1A7-39C9-479C-BFAA-F79796331447-
-
-CCpResource SAHighlightedTextFieldDemo/Artwork/text_field_editing@2x.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing@2x.png
-s394290640.951350
-e394290640.980246
-r1
-xCpResource
-xSAHighlightedTextFieldDemo/Artwork/text_field_editing@2x.png
-xDerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Copy DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing@2x.png2fa8f3d06580b741^d7fafad06580b741^---0#0#0#-19%DVTDocumentLocation2@227"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing@2x.png000000000080d041^930"CpResource "SAHighlightedTextFieldDemo/Artwork/text_field_editing@2x.png" "DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/text_field_editing@2x.png"    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Artwork/text_field_editing@2x.png" /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app36"71C74F48-8E11-491A-A615-E7CA9493990B-
-
-CCpResource SAHighlightedTextFieldDemo/Default-568h@2x.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default-568h@2x.png
-s394290640.918313
-e394290640.922831
-r1
-xCpResource
-xSAHighlightedTextFieldDemo/Default-568h@2x.png
-xDerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Copy DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default-568h@2x.pngcf2eebd06580b741^fb3eecd06580b741^---0#0#0#-19%DVTDocumentLocation2@221"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default-568h@2x.png000000000080d041^896"CpResource "SAHighlightedTextFieldDemo/Default-568h@2x.png" "DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default-568h@2x.png"    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Default-568h@2x.png" /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app36"0CBC7BA7-4E8C-4484-8F30-E5EAFA80BA8A-
-
-CCpResource SAHighlightedTextFieldDemo/Default.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default.png
-s394290640.918069
-e394290640.920520
-r1
-xCpResource
-xSAHighlightedTextFieldDemo/Default.png
-xDerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default.pngda20ebd06580b741^22a7ebd06580b741^---0#0#0#-19%DVTDocumentLocation2@213"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default.png000000000080d041^866"CpResource SAHighlightedTextFieldDemo/Default.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default.png    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Default.png /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app36"B8A427D9-9955-4D5A-9E9E-85037B07DCB3-
-
-CCpResource SAHighlightedTextFieldDemo/Default@2x.png DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default@2x.png
-s394290640.918170
-e394290640.921501
-r1
-xCpResource
-xSAHighlightedTextFieldDemo/Default@2x.png
-xDerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Copy DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default@2x.png7025ebd06580b741^9fe7ebd06580b741^---0#0#0#-19%DVTDocumentLocation2@216"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default@2x.png000000000080d041^881"CpResource "SAHighlightedTextFieldDemo/Default@2x.png" "DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Default@2x.png"    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/Default@2x.png" /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app36"CF641731-905B-4B51-84B5-6AE8DCC6E60B-
-
-CGenerateDSYMFile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app.dSYM /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo
-s394290894.259813
-e394290894.288852
-r1
-xGenerateDSYMFile
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app.dSYM
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection199"Generate /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app.dSYMf19f42ce6680b741^a5f349ce6680b741^---0#0#0#-19%DVTDocumentLocation2@207"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app.dSYM/0000000000000000^1051"GenerateDSYMFile DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app.dSYM DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo -o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app.dSYM36"06D6D2F8-B8B1-41E5-ABB9-BD46C75555DA-
-
-CLd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo normal i386
-s394290894.221971
-e394290894.252722
-r1
-xLd
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection217"Link /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo7de638ce6680b741^42b240ce6680b741^---0#0#0#--1714"Ld DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo normal i386    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator -F/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator -filelist /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/Objects-normal/i386/SAHighlightedTextFieldDemo.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/SAHighlightedTextFieldDemo36"8443FA69-A0CE-4F2B-91E6-CE3578E4458C-
-
-CProcessInfoPlistFile /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Info.plist SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist
-s394290726.455951
-e394290726.459357
-r1
-xProcessInfoPlistFile
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Info.plist
-xSAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Process SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist07d374266680b741^7e1c79266680b741^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist0000000000000000^1047"ProcessInfoPlistFile DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Info.plist SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Info.plist -genpkginfo /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app/Info.plist36"9C1B687F-7CE2-4340-9395-FBBE2FF6FE35-
-
-CProcessPCH /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-abamgzvlgbqxuyecbjeheemmyvya/SAHighlightedTextFieldDemo-Prefix.pch.pth SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s394290640.040577
-e394290640.355976
-r1
-xProcessPCH
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-abamgzvlgbqxuyecbjeheemmyvya/SAHighlightedTextFieldDemo-Prefix.pch.pth
-xSAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Precompile SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch1d8e0ad06580b741^de1f5bd06580b741^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch0000000000000000^4957"ProcessPCH DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-abamgzvlgbqxuyecbjeheemmyvya/SAHighlightedTextFieldDemo-Prefix.pch.pth SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-generated-files.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-own-target-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-all-target-headers.hmap -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-project-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources/i386 -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources -F/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-abamgzvlgbqxuyecbjeheemmyvya/SAHighlightedTextFieldDemo-Prefix.pch.dia -c /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch -o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-abamgzvlgbqxuyecbjeheemmyvya/SAHighlightedTextFieldDemo-Prefix.pch.pth -MMD -MT dependencies -MF /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-abamgzvlgbqxuyecbjeheemmyvya/SAHighlightedTextFieldDemo-Prefix.pch.d36"D3C5E78D-74C7-4D61-956E-0A7476F293BA-
-
-CProcessPCH /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch.pth SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s394290726.467381
-e394290726.888027
-r1
-xProcessPCH
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch.pth
-xSAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Precompile SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch36c977266680b741^ce55e3266680b741^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch0000000000000000^4957"ProcessPCH DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch.pth SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-generated-files.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-own-target-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-all-target-headers.hmap -iquote /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/SAHighlightedTextFieldDemo-project-headers.hmap -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources/i386 -I/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/SAHighlightedTextFieldDemo.build/Debug-iphonesimulator/SAHighlightedTextFieldDemo.build/DerivedSources -F/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch.dia -c /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch -o /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch.pth -MMD -MT dependencies -MF /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Intermediates/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dqsqhguoscuunbgvozfisxwxoced/SAHighlightedTextFieldDemo-Prefix.pch.d36"D15C255B-6D18-47F5-97D7-DAA4DB9241E0-
-
-CProcessPCH /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Index/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-cciruwvayocozsaujejkugtkzhng_ast/SAHighlightedTextFieldDemo-Prefix.pch.pth SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Index/PrecompiledHeaders/SAHighlightedTextFieldDemo-Prefix-dsscxtxfybspwoheubcdbgqttbib_ast/SAHighlightedTextFieldDemo-Prefix.pch.pth SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CTouch /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app
-s394290956.831086
-e394290956.839410
-r1
-xTouch
-x/Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection191"Touch /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.appe9d5d40c6780b741^1de3d60c6780b741^---0#0#0#--602"Touch DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app    cd /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/stavash/Documents/SAHighlightedTextFieldDemo/SAHighlightedTextFieldDemo/DerivedData/SAHighlightedTextFieldDemo/Build/Products/Debug-iphonesimulator/SAHighlightedTextFieldDemo.app36"7D245855-EB32-4C42-A1F6-7F9A421E3FA7-
-
